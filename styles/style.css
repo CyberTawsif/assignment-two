@@ -1,0 +1,98 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* font style */
+.navbar{
+    display:flex;
+    justify-content: space-around;
+    padding: 0px 45px;
+}
+.navmenu{
+    display: flex;
+    align-items: center;
+    
+}
+h3,i {
+    margin-left: 20px;
+}
+h1{
+    color:black;
+    font-weight: 800px;
+}
+.prebook{
+    background-color:magenta;
+    border-radius: 15px;
+    color: white;
+    font-weight: 700px;
+    height: 2.5em;
+}
+
+.header-paragraph{
+    width: 350px;
+    
+}
+.total-header{
+    display: flex;
+    justify-content: space-evenly;
+}
+.logos
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 180px;
+
+    
+}
+.fas, .fa-arrow-right{
+    color: white;
+}
+.far, .fa-star{
+    color: orange;
+}
+.gallery-image{
+    width: 300px;
+    height: 253px;
+}
+.product-gallery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* justify-content: center; */
+}
+
+.see-more{
+    color: magenta;
+    text-align: end;
+}
+.last-sec-image{
+    width: 404px;
+    height: 270px;
+    border-radius: 10px;
+}
+.last-sec-h3{
+    color: grey;
+}
+.last-sec{
+    display:flex;
+    justify-content:space-evenly;
+
+}
+.footer{
+    padding: 20px;
+    margin-top: 40px;
+    background-color:black;
+    color: white;
+    text-align: center;
+}
+/* media query
+ */
+ @media only screen and (max-width:680px) {
+     .total-header{
+         display: grid;
+         grid-template-columns: repeat(1 1fr);
+         
+     }
+
+ }
+     
